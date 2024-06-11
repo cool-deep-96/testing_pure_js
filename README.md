@@ -5,19 +5,12 @@ Welcome to the PostgreSQL Installation Guide for Windows. This guide will help y
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Prerequisites](#prerequisites)
-3. [Installation](#installation)
-4. [Post-Installation Setup](#post-installation-setup)
+2. [Installation](#installation)
+3. [Post-Installation Setup](#post-installation-setup)
 
 ## Introduction
 
 PostgreSQL is a powerful, open-source object-relational database system. It has a strong reputation for reliability, feature robustness, and performance. This guide provides step-by-step instructions for installing PostgreSQL on your Windows system.
-
-## Prerequisites
-
-Before starting the installation, ensure you have the following:
-- Administrative access to your system.
-- Internet connection (for downloading the installer).
 
 ## Installation
 
