@@ -32,7 +32,10 @@ PostgreSQL is a powerful, open-source object-relational database system. It has 
 2. **Creating a Database:**
    - Create a new database with:
      ```sh
-     createdb redscope
+     CREATE DATABASE testing;
      ```
-3. **Run the sql queries ( provided in the redscope-server )**
-
+## DataGrip IDE (optionally)
+1. ** Download **
+   - Visit the official DataGrip [download page](https://www.jetbrains.com/datagrip/download/#section=windows)
+2. ** Add Datasources **
+3. ** Run queries in the console ( provided int rescope-server ) 
