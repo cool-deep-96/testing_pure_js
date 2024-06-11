@@ -34,5 +34,5 @@ PostgreSQL is a powerful, open-source object-relational database system. It has 
      ```sh
      createdb redscope
      ```
-3. **Run the sql queries ( provided in the redscope-server )
+3. **Run the sql queries ( provided in the redscope-server )**
 
