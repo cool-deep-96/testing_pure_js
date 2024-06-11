@@ -8,8 +8,6 @@ Welcome to the PostgreSQL Installation Guide for Windows. This guide will help y
 2. [Prerequisites](#prerequisites)
 3. [Installation](#installation)
 4. [Post-Installation Setup](#post-installation-setup)
-5. [Troubleshooting](#troubleshooting)
-6. [References](#references)
 
 ## Introduction
 
@@ -26,8 +24,8 @@ Before starting the installation, ensure you have the following:
 ### Windows
 
 1. **Download the Installer:**
-   - Visit the official PostgreSQL [download page](https://www.postgresql.org/download/windows/).
-   - Download the installer for the latest version of PostgreSQL.
+   - Visit the official PostgreSQL [download page](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads).
+   - Download the installer for the latest version(16.3) of PostgreSQL .
 
 2. **Run the Installer:**
    - Double-click the downloaded `.exe` file to run the installer.
@@ -49,43 +47,7 @@ Before starting the installation, ensure you have the following:
 2. **Creating a Database:**
    - Create a new database with:
      ```sh
-     createdb mydatabase
+     createdb redscope
      ```
+3. **Run the sql queries ( provided in the redscope-server )
 
-3. **Creating a User:**
-   - Create a new user with:
-     ```sh
-     createuser myuser
-     ```
-
-4. **Granting Privileges:**
-   - Grant privileges to the new user:
-     ```sh
-     psql -c "GRANT ALL PRIVILEGES ON DATABASE mydatabase TO myuser;"
-     ```
-
-## Troubleshooting
-
-- **Common Issues:**
-  - Ensure PostgreSQL service is running.
-  - Check if the correct PATH is set.
-  - Review PostgreSQL logs for errors.
-
-- **Useful Commands:**
-  - Restart PostgreSQL service:
-    ```sh
-    sudo systemctl restart postgresql
-    ```
-  - Check PostgreSQL status:
-    ```sh
-    sudo systemctl status postgresql
-    ```
-
-## References
-
-- [PostgreSQL Official Documentation](https://www.postgresql.org/docs/)
-- [PostgreSQL Download Page](https://www.postgresql.org/download/)
-
----
-
-This README file provides basic steps for installing and setting up PostgreSQL on Windows. For detailed information, please refer to the official PostgreSQL documentation.
