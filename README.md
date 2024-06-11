@@ -37,5 +37,6 @@ PostgreSQL is a powerful, open-source object-relational database system. It has 
 ## DataGrip IDE (optionally)
 1. ** Download **
    - Visit the official DataGrip [download page](https://www.jetbrains.com/datagrip/download/#section=windows)
+   - Download and run `.exe  ` file
 2. ** Add Datasources **
 3. ** Run queries in the console ( provided int rescope-server ) 
